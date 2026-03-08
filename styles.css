@@ -27,3 +27,11 @@
     color:Orange;
     font-size:50px;
 }
+#b1{
+    background-image: url("Fire.png");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment:fixed ;
+    background-size:cover; 
+}
+
