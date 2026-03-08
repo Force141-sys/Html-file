@@ -104,6 +104,30 @@
         .ref-item:nth-child(3) { animation-delay: 0.3s; }
         .ref-item:nth-child(4) { animation-delay: 0.4s; }
         .ref-item:nth-child(5) { animation-delay: 0.5s; }
+        .ref-item:nth-child(6) { animation-delay: 0.6s; }
+        .ref-item:nth-child(7) { animation-delay: 0.7s; }
+        .ref-item:nth-child(8) { animation-delay: 0.8s; }
+        .ref-item:nth-child(9) { animation-delay: 0.9s; }
+        .ref-item:nth-child(10) { animation-delay: 1.0s; }
+        .ref-item:nth-child(11) { animation-delay: 1.1s; }
+        .ref-item:nth-child(12) { animation-delay: 1.2s; }
+
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--ember);
+            opacity: 0.6;
+            padding: 0 4px;
+            margin-top: 36px;
+            margin-bottom: 10px;
+        }
+
+        .section-label:first-child {
+            margin-top: 0;
+        }
 
         .ref-item:hover {
             background: var(--glow);
@@ -176,21 +200,53 @@
         <header>
             <h1>References 🔥</h1>
             <hr class="divider">
-            <p class="subtitle">Fire Ecology &amp; Yellowstone</p>
+            <p class="subtitle">Fire Ecology &amp; Fire Suppression</p>
         </header>
 
         <nav class="ref-list">
-            <a class="ref-item" id="a1" href="https://fireecology.org/fire-ecology">
+
+            <div class="section-label">— Fire Ecology</div>
+
+            <a class="ref-item" id="a1" href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/fire-ecology">
                 <span class="ref-number">01</span>
                 <div class="ref-content">
-                    <div class="ref-title">Fireecology.org</div>
+                    <div class="ref-title">Overview and Scientific Background on Fire Ecology</div>
+                    <div class="ref-url">sciencedirect.com · Agricultural and Biological Sciences</div>
+                </div>
+                <span class="ref-arrow">→</span>
+            </a>
+
+            <a class="ref-item" id="a2" href="https://fireecology.org/fire-ecology?srsltid=AfmBOor5upB0Wk7H9xqzgAwVYQWiyK0TKUWHjNxiHglscZTaPMCF8jWR">
+                <span class="ref-number">02</span>
+                <div class="ref-content">
+                    <div class="ref-title">What is Fire Ecology and Its Ecological Role</div>
                     <div class="ref-url">fireecology.org/fire-ecology</div>
                 </div>
                 <span class="ref-arrow">→</span>
             </a>
 
-            <a class="ref-item" id="a2" href="https://en.wikipedia.org/wiki/Yellowstone_fires_of_1988">
-                <span class="ref-number">02</span>
+            <a class="ref-item" id="a3" href="https://en.wikipedia.org/wiki/Fire_ecology">
+                <span class="ref-number">03</span>
+                <div class="ref-content">
+                    <div class="ref-title">Fire Ecology — Wikipedia</div>
+                    <div class="ref-url">en.wikipedia.org/wiki/Fire_ecology</div>
+                </div>
+                <span class="ref-arrow">→</span>
+            </a>
+
+            <a class="ref-item" id="a4" href="https://natural-resources.canada.ca/forest-forestry/wildland-fires/fire-ecology">
+                <span class="ref-number">04</span>
+                <div class="ref-content">
+                    <div class="ref-title">Fire Ecology — Natural Resources Canada</div>
+                    <div class="ref-url">natural-resources.canada.ca · Wildland Fires</div>
+                </div>
+                <span class="ref-arrow">→</span>
+            </a>
+
+            <div class="section-label">— Yellowstone</div>
+
+            <a class="ref-item" id="a5" href="https://en.wikipedia.org/wiki/Yellowstone_fires_of_1988">
+                <span class="ref-number">05</span>
                 <div class="ref-content">
                     <div class="ref-title">Yellowstone Fires of 1988</div>
                     <div class="ref-url">en.wikipedia.org/wiki/Yellowstone_fires_of_1988</div>
@@ -198,8 +254,8 @@
                 <span class="ref-arrow">→</span>
             </a>
 
-            <a class="ref-item" id="a3" href="https://www.nps.gov/yell/learn/nature/1988-fires.html">
-                <span class="ref-number">03</span>
+            <a class="ref-item" id="a6" href="https://www.nps.gov/yell/learn/nature/1988-fires.html">
+                <span class="ref-number">06</span>
                 <div class="ref-content">
                     <div class="ref-title">1988 Fires — National Park Service</div>
                     <div class="ref-url">nps.gov/yell/learn/nature/1988-fires.html</div>
@@ -207,8 +263,8 @@
                 <span class="ref-arrow">→</span>
             </a>
 
-            <a class="ref-item" id="a4" href="https://npshistory.com/publications/yell/afterglow.pdf">
-                <span class="ref-number">04</span>
+            <a class="ref-item" id="a7" href="https://npshistory.com/publications/yell/afterglow.pdf">
+                <span class="ref-number">07</span>
                 <div class="ref-content">
                     <div class="ref-title">Yellowstone in the Afterglow</div>
                     <div class="ref-url">npshistory.com/publications/yell/afterglow.pdf</div>
@@ -216,17 +272,47 @@
                 <span class="ref-arrow">→</span>
             </a>
 
-            <a class="ref-item" id="a5" href="https://www.pbs.org/edens/yellowstone/shaped.html">
-                <span class="ref-number">05</span>
+            <a class="ref-item" id="a8" href="https://www.pbs.org/edens/yellowstone/shaped.html">
+                <span class="ref-number">08</span>
                 <div class="ref-content">
                     <div class="ref-title">Shaped by Fire — PBS</div>
                     <div class="ref-url">pbs.org/edens/yellowstone/shaped.html</div>
                 </div>
                 <span class="ref-arrow">→</span>
             </a>
+
+            <div class="section-label">— Fire Suppression</div>
+
+            <a class="ref-item" id="a9" href="https://www.creativesafetysupply.com/glossary/fire-suppression-system/">
+                <span class="ref-number">09</span>
+                <div class="ref-content">
+                    <div class="ref-title">Definition and Explanation of Fire Suppression Systems</div>
+                    <div class="ref-url">creativesafetysupply.com · Glossary</div>
+                </div>
+                <span class="ref-arrow">→</span>
+            </a>
+
+            <a class="ref-item" id="a10" href="https://www.hoyles.co.uk/latest-news/what-is-a-fire-suppression-system/">
+                <span class="ref-number">10</span>
+                <div class="ref-content">
+                    <div class="ref-title">What is a Fire Suppression System and How It Works</div>
+                    <div class="ref-url">hoyles.co.uk · Latest News</div>
+                </div>
+                <span class="ref-arrow">→</span>
+            </a>
+
+            <a class="ref-item" id="a11" href="https://activefire-uk.com/the-science-of-fire-suppression-fire-suppression-defined-and-why-it-matters/">
+                <span class="ref-number">11</span>
+                <div class="ref-content">
+                    <div class="ref-title">The Science of Fire Suppression — Why It Matters</div>
+                    <div class="ref-url">activefire-uk.com</div>
+                </div>
+                <span class="ref-arrow">→</span>
+            </a>
+
         </nav>
 
-        <footer>5 sources · Fire Ecology Research</footer>
+        <footer>Fire Ecology &amp; Suppression Research</footer>
     </div>
 </body>
 </html>
